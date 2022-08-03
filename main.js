@@ -50,7 +50,7 @@ function draw(){
     removeDecimals = floor(number)
     volume = removeDecimals/500;
     document.getElementById("volume").innerHTML = "Volume =" + volume;
-    song.setVolume(volume``)
+    song.setVolume(volume)
         
     }
 
